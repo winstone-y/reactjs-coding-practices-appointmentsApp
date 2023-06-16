@@ -1,0 +1,67 @@
+/* Write your CSS here */
+@media screen and (max-width: 767px) {
+  .item {
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 5px;
+    border: 1px solid #b5b7c4;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    width: 95%;
+  }
+  .item-star {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .star-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .item-date {
+    margin-top: 0;
+    color: #b5b7c4;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .list-item {
+    list-style-type: none;
+    padding-left: 20px;
+    padding: 10px;
+    border: 1px solid #b5b7c4;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    max-width: 350px;
+  }
+  .item-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+  }
+  .item-star {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+  }
+  .star-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+  }
+  .item-date {
+    margin-top: 0;
+    color: #b5b7c4;
+    font-size: 12px;
+  }
+}
